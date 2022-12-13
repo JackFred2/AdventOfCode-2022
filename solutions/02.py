@@ -35,7 +35,7 @@ result_to_score = {
 
 def part1():
     total_score = 0
-    with open("2_input.txt") as f:
+    with open("02_input.txt") as f:
         for line in f.readlines():
             their_move = letters_to_move[line[0]]
             our_move = letters_to_move[line[2]]
@@ -50,7 +50,7 @@ def part1():
 
 def part2():
     total_score = 0
-    with open("2_input.txt") as f:
+    with open("02_input.txt") as f:
         for line in f.readlines():
             their_move = letters_to_move[line[0]]
             result = letters_to_result[line[2]]

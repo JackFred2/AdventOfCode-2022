@@ -1,6 +1,6 @@
 def part1():
     max_length = 4
-    with open("6_input.txt") as f:
+    with open("06_input.txt") as f:
         string = f.readline()
 
     recent = []
@@ -17,7 +17,7 @@ def part1():
 
 def part2():
     max_length = 14
-    with open("6_input.txt") as f:
+    with open("06_input.txt") as f:
         string = f.readline()
 
     recent = []

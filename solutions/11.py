@@ -47,7 +47,8 @@ def calculate(stress_divisor: int, rounds: int):
             monkey["inspections"] += len(items)
             for _ in range(len(items)):
                 items[0] = monkey["operation"](items[0]) // stress_divisor % worry_divisor_product
-                destination = monkey["true_destination"] if items[0] % monkey["divisor"] == 0 else monkey["false_destination"]
+                destination = monkey["true_destination"] if items[0] % monkey["divisor"] == 0 else monkey[
+                    "false_destination"]
                 monkeys[destination]["items"].append(items.pop(0))
     monkey_business = [monkey["inspections"] for monkey in monkeys]
     monkey_business.sort()

@@ -1,5 +1,5 @@
 def part1():
-    with open("1_input.txt") as f:
+    with open("01_input.txt") as f:
         max_calories = 0
         current_elf_sum = 0
         for line in f.readlines():
@@ -13,7 +13,7 @@ def part1():
 
 
 def part2():
-    with open("1_input.txt") as f:
+    with open("01_input.txt") as f:
         sums = []
         current_elf_sum = 0
         for line in f.readlines():

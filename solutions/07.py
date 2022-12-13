@@ -2,7 +2,7 @@ import re
 
 
 def part1():
-    with open("7_input.txt") as f:
+    with open("07_input.txt") as f:
         pwd = []
         files = {}
 
@@ -55,7 +55,7 @@ def part1():
 
 
 def part2():
-    with open("7_input.txt") as f:
+    with open("07_input.txt") as f:
         pwd = []
         files = {}
 

@@ -43,7 +43,5 @@ def part2():
         print("\n".join(screen))
 
 
-
-
 part1()
 part2()

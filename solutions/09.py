@@ -11,7 +11,7 @@ def sign(i: int):
 
 
 def part1():
-    with open("9_input.txt") as f:
+    with open("09_input.txt") as f:
         head_x = 0
         head_y = 0
         tail_x = 0
@@ -77,13 +77,12 @@ def part2():
             elif abs(y_offset) == 2:
                 return current_head_pos[0], current_tail_pos[1] + sign(y_offset)
 
-    with open("9_input.txt") as f:
+    with open("09_input.txt") as f:
         for instruction_lines in f.readlines():
             direction = instruction_lines[0]
             distance = int(instruction_lines[2:-1])
             for _ in range(distance):
                 instructions.append(direction)
-
 
     for instruction in instructions:
         head_pos = positions[0]
@@ -124,7 +123,6 @@ def part2():
 
         tail_positions.add(positions[9])
     print(len(tail_positions))
-
 
 
 part1()

@@ -1,5 +1,5 @@
 def part1():
-    with open("8_input.txt") as f:
+    with open("08_input.txt") as f:
         trees = []
         for line in f.readlines():
             row = []
@@ -45,7 +45,7 @@ def part1():
 
 
 def part2():
-    with open("8_input.txt") as f:
+    with open("08_input.txt") as f:
         trees = []
         for line in f.readlines():
             row = []

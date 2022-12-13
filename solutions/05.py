@@ -2,7 +2,7 @@ import re
 
 
 def part1():
-    with open("5_input.txt") as f:
+    with open("05_input.txt") as f:
         stacks = []
         stack_count = len(f.readline()) // 4
         f.seek(0)
@@ -40,7 +40,7 @@ def part1():
 
 
 def part2():
-    with open("5_input.txt") as f:
+    with open("05_input.txt") as f:
         stacks = []
         stack_count = len(f.readline()) // 4
         f.seek(0)

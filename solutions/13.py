@@ -88,7 +88,7 @@ def part2():
     data.append(divider_a)
     data.append(divider_b)
     not_sorted = True
-    while not_sorted: # bubble sort
+    while not_sorted:  # bubble sort
         not_sorted = False
         for i in range(len(data) - 1):
             comparison = compare(copy.deepcopy(data[i]), copy.deepcopy(data[i + 1]))

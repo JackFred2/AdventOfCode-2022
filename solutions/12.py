@@ -60,7 +60,7 @@ def load_map() -> (Graph, Node, Node):
                     x_node.add_node(node)
                 if x_difference >= -1:
                     node.add_node(x_node)
-            if y > 0 :
+            if y > 0:
                 y_node = grid[y - 1][x]
                 y_difference = node.height - y_node.height
                 if y_difference <= 1:

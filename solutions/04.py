@@ -6,7 +6,7 @@ pattern = "^(\\d+)-(\\d+),(\\d+)-(\\d+)\n$"
 def part1():
     total = 0
 
-    with open("4_input.txt") as f:
+    with open("04_input.txt") as f:
         for line in f.readlines():
             match = re.search(pattern, line)
             first_start = int(match.group(1))
@@ -21,7 +21,7 @@ def part1():
 def part2():
     total = 0
 
-    with open("4_input.txt") as f:
+    with open("04_input.txt") as f:
         for line in f.readlines():
             match = re.search(pattern, line)
             first_start = int(match.group(1))
